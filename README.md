@@ -42,6 +42,7 @@ This repository contains four folders: .ipynb_checkpoints, Data, Images, and Not
 
 # Reproduction instructions
 Prerequisties include: Python, Anaconda, Gitbash 
+
 Software dependencies: 
      sklearn.cluster - KMeans
      sklearn.metrics - silhouette_samples, silhouette_score
