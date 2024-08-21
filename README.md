@@ -1,6 +1,6 @@
 # Custom-Crop-Guidance-with-AI
 ![dean-vallance-2rINCqTV76g-unsplash](https://github.com/user-attachments/assets/4420dfbf-7f59-4b8a-bed0-1f6d4f15df56)
-The "Custom Crop Guidance with AI" project aims to help farmers maximize their crop yields by understanding crop's specific needs and nutrients. We used the [Crop recommendation dataset](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset?select=Crop_Recommendation.csv) to gather our data and findings. We utilized a Logistic Regression and Random Forest Classifier to tackle our problem.
+The "Custom Crop Guidance with AI" project aims to help farmers maximize their crop yields by understanding crop's specific needs and nutrients. We used the [Crop recommendation dataset](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset?select=Crop_Recommendation.csv) to gather our data and utilized a Logistic Regression and Random Forest Classifier on the dataset to tackle our problem.
 
 # Business Understanding and Data Understanding
 A lack of understanding about environmental conditions and nutrients can be detrimental to farmers' success because different crops require different nutrients​. The data set was entirely composed of numerical data excluding the target variable. Listed below are the variables from the data set.
