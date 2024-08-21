@@ -1,17 +1,18 @@
 # Custom-Crop-Guidance-with-AI
 ![dean-vallance-2rINCqTV76g-unsplash](https://github.com/user-attachments/assets/4420dfbf-7f59-4b8a-bed0-1f6d4f15df56)
-The "Custom Crop Guidance with AI" project aims to help farmers maximize their crop yields by understanding crop's specific needs and nutrients. We used the [Crop recommendation dataset](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset?select=Crop_Recommendation.csv) to gather our data and findings. We utilized the Logistic Regression and Random forest classifier to tackle our problem.
+The "Custom Crop Guidance with AI" project aims to help farmers maximize their crop yields by understanding crop's specific needs and nutrients. We used the [Crop recommendation dataset](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset?select=Crop_Recommendation.csv) to gather our data and findings. We utilized a Logistic Regression and Random forest classifier to tackle our problem.
 
 # Business Understanding and Data Understanding
-A lack of understanding about environmental conditions and nutrients can be detrimental to farmers' success. ​Different crops require different nutrients​, Poor crop selection can lead to negative losses for farmers​, Crops not suitable for local conditions can harm crop growth​, Incorrect Soil pH can prevent crops from absorbing nutrients​.
+A lack of understanding about environmental conditions and nutrients can be detrimental to farmers' success because different crops require different nutrients​.
 
-The data set was entirely composed of numerical data excluding the target variable.
+The data set was entirely composed of numerical data excluding the target variable. Listed below are the variables from the data set.
 
-Key Factors: Nitrogen, Phosphorus and Potassium 
+**Key Factors**: Nitrogen, Phosphorus and Potassium 
 
-Environmental Variables: Temperature, Humidity, pH_Value, Rainfall
+**Environmental Variables**: Temperature, Humidity, pH_Value, Rainfall
 
-Target Variables: Crop
+**Target Variables**: Crop
+
  
 The three primary macronutrients essential to successful crop growth are [Nitrogen, Phosporus and Potassium](https://cropnuts.com/nitrogen-phosphorus-potassium-npk-fertilizers/).
 
@@ -21,11 +22,11 @@ The three primary macronutrients essential to successful crop growth are [Nitrog
 
 [Potassium](https://extension.umn.edu/phosphorus-and-potassium/potassium-crop-production) is involved with the enzyme activation within the plant, which also affects the ATP production. In crops it also plays a role in helping regulate the exchange of water vapor, oxygen and carbon dioxide (the opening and closing of the stomata).
 
-[Soil p_H](https://www.nrcs.usda.gov/sites/default/files/2022-11/pH%20-%20Soil%20Health%20Guide_0.pdf) is an important indivator for the suitability of a soil for plant growth. According to the USDA for most crops pH of 6 to 7.5 is optimal. If the pH levels are too high are low, it can lead to a deficiency of nutrients
+[Soil p_H](https://www.nrcs.usda.gov/sites/default/files/2022-11/pH%20-%20Soil%20Health%20Guide_0.pdf) is an important indicator for the suitability of a soil for plant growth. According to the USDA for most crops pH of 6 to 7.5 is optimal. If the pH levels are too high are low, it can lead to a deficiency of nutrients
 
-[Humidity](https://www.pthorticulture.com/en-us/training-center/how-does-humidity-influence-crop-quality) is proper humidity levels ensure optimal transpiration, which is essential for nutrient uptake and effective photosynthesis, ultimately impacting plant growth and crop yield.
+[Humidity](https://www.pthorticulture.com/en-us/training-center/how-does-humidity-influence-crop-quality) ensures optimal transpiration which is essential for nutrient uptake and effective photosynthesis, ultimately impacting plant growth and crop yield.
 
-[Rainfall](https://www.nicheagriculture.com/how-rainfall-affects-crop-health/) it supplies the water necessary for plants to absorb and distribute nutrients, essential for their survival and growth. Additionally, it plays a role in reducing soil erosion and enhancing soil fertility.
+[Rainfall](https://www.nicheagriculture.com/how-rainfall-affects-crop-health/) supplies the water necessary for plants to absorb and distribute nutrients essential for their survival and growth. Additionally, it plays a role in reducing soil erosion and enhancing soil fertility.
 
 ### Modeling and Evaluation
 We recommend for our client to use the logistic regression model. It preformed quite well, 98% accuracy on the dedicated testing data. This model also showcased 100% accuracy achieved in 4 specific clusters, indicating perfect classification for those clusters. Additionally,l ogistic regression models are quicker to train and make predictions than random forest classifiers
