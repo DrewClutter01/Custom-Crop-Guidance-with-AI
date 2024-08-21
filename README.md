@@ -1,11 +1,16 @@
 # Custom-Crop-Guidance-with-AI
 ![dean-vallance-2rINCqTV76g-unsplash](https://github.com/user-attachments/assets/4420dfbf-7f59-4b8a-bed0-1f6d4f15df56)
-The "Custom Crop Guidance with AI" project aims to help farmers maximize their crop yields by understanding crop's specific needs and nutrients. We used the Crop recommendation dataset to gather our data and findings. We utilized the Logistic Regression and Random forest classifier to tackle our problem.
+The "Custom Crop Guidance with AI" project aims to help farmers maximize their crop yields by understanding crop's specific needs and nutrients. We used the [Crop recommendation dataset](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset?select=Crop_Recommendation.csv) to gather our data and findings. We utilized the Logistic Regression and Random forest classifier to tackle our problem.
 
 # Business Understanding and Data Understanding
+A lack of understanding about environmental conditions and nutrients can be detrimental to farmers' success. ​Different crops require different nutrients​, Poor crop selection can lead to negative losses for farmers​, Crops not suitable for local conditions can harm crop growth​, Incorrect Soil pH can prevent crops from absorbing nutrients​.
+
 The data set was entirely composed of numerical data excluding the target variable.
+
 Key Factors: Nitrogen, Phosphorus and Potassium 
+
 Environmental Variables: Temperature, Humidity, pH_Value, Rainfall
+
 Target Variables: Crop
  
 The three primary macronutrients essential to successful crop growth are [Nitrogen, Phosporus and Potassium](https://cropnuts.com/nitrogen-phosphorus-potassium-npk-fertilizers/).
