@@ -37,7 +37,26 @@ We recommend that our client use the logistic regression model. It performed qui
 ### Repository Navigation
 This repository contains four folders: .ipynb_checkpoints, Data, Images, and Notebooks. The Data folder contains the original dataset as well as the clustered dataset. Within the Notebooks folder, you can find eight sub-folders. Each team member has their own sub-folder. Additionally, EDA-Clustering, LogReg, and RandomForest are the sub-folders that contain the code for the clustering justification, logistic regression model, and random forest model, respectively. The EDA done for the dataset can be found in these two folders: Nicole_Salas and Dorothy_Uriri_Akpovwa.
 
-Final notebok link: 
-Final Presentation link: 
+# Final notebok link: 
+# Final Presentation link: 
 
-Reproduction instructions (or a link to them)
+# Reproduction instructions
+Prerequisties include: Python, Anaconda, Gitbash 
+Software dependencies: 
+     sklearn.cluster - KMeans
+     sklearn.metrics - silhouette_samples, silhouette_score
+     matplotlib.cm
+     sklearn.preprocessing - MinMaxScaler, StandardScaler
+     sklearn.linear_model - LogisticRegression
+     sklearn.model_selection - train_test_split
+     sklearn.metrics - confusion_matrix, ConfusionMatrixDisplay
+     sklearn.model_selection - train_test_split, GridSearchCV
+     sklearn.preprocessing - MinMaxScalersklearn.linear_model - LogisticRegression
+     matplotlib - style
+     sklearn.tree -  DecisionTreeClassifier
+     sklearn.ensemble -  BaggingClassifier, RandomForestClassifier
+Installation: 
+     1. Fork the repository 
+     2. Clone the repository using git clone and insert the copied url from the forking 
+     3. cd into what has been cloned  
+     4. Next open jupyter notebook and begin importing the software dependencies 
