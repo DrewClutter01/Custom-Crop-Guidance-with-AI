@@ -37,8 +37,8 @@ We recommend that our client use the logistic regression model. It performed qui
 ### Repository Navigation
 This repository contains four folders: .ipynb_checkpoints, Data, Images, and Notebooks. The Data folder contains the original dataset as well as the clustered dataset. Within the Notebooks folder, you can find eight sub-folders. Each team member has their own sub-folder. Additionally, EDA-Clustering, LogReg, and RandomForest are the sub-folders that contain the code for the clustering justification, logistic regression model, and random forest model, respectively. The EDA done for the dataset can be found in these two folders: Nicole_Salas and Dorothy_Uriri_Akpovwa.
 
-# Final notebok link: 
-# Final Presentation link: 
+# Final notebok link: https://github.com/DrewClutter01/Custom-Crop-Guidance-with-AI/blob/main/report-notebook.ipynb
+# Final Presentation link: https://github.com/DrewClutter01/Custom-Crop-Guidance-with-AI/blob/main/presentation.pdf
 
 # Reproduction instructions
 Prerequisties include: Python, Anaconda, Gitbash 
