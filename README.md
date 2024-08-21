@@ -44,20 +44,23 @@ This repository contains four folders: .ipynb_checkpoints, Data, Images, and Not
 Prerequisties include: Python, Anaconda, Gitbash 
 
 Software dependencies: 
-     sklearn.cluster - KMeans
-     sklearn.metrics - silhouette_samples, silhouette_score
-     matplotlib.cm
-     sklearn.preprocessing - MinMaxScaler, StandardScaler
-     sklearn.linear_model - LogisticRegression
-     sklearn.model_selection - train_test_split
-     sklearn.metrics - confusion_matrix, ConfusionMatrixDisplay
-     sklearn.model_selection - train_test_split, GridSearchCV
-     sklearn.preprocessing - MinMaxScalersklearn.linear_model - LogisticRegression
-     matplotlib - style
-     sklearn.tree -  DecisionTreeClassifier
-     sklearn.ensemble -  BaggingClassifier, RandomForestClassifier
+sklearn.cluster - KMeans
+sklearn.metrics - silhouette_samples, silhouette_score
+matplotlib.cm
+sklearn.preprocessing - MinMaxScaler, StandardScaler
+sklearn.linear_model - LogisticRegression
+sklearn.model_selection - train_test_split
+sklearn.metrics - confusion_matrix, ConfusionMatrixDisplay
+sklearn.model_selection - train_test_split, GridSearchCV
+sklearn.preprocessing - MinMaxScalersklearn.linear_model - LogisticRegression
+matplotlib - style
+sklearn.tree -  DecisionTreeClassifier
+sklearn.ensemble -  BaggingClassifier, RandomForestClassifier
+
 Installation: 
-     1. Fork the repository 
-     2. Clone the repository using git clone and insert the copied url from the forking 
-     3. cd into what has been cloned  
-     4. Next open jupyter notebook and begin importing the software dependencies 
+1. Fork the repository 
+2. Clone the repository using git clone and insert the copied url from the forking 
+3. cd into what has been cloned  
+4. Next open jupyter notebook and begin importing the software dependencies
+
+Remember to make sure you have the latest version of all the software dependencies, and use the documentation if needed!
